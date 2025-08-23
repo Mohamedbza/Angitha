@@ -1,0 +1,323 @@
+{
+  "welcome": "Bienvenue",
+  "loading": "Chargement...",
+  "error": "Erreur",
+  "success": "Succès",
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "add": "Ajouter",
+  "search": "Rechercher",
+  "submit": "Soumettre",
+  "back": "Retour",
+  "next": "Suivant",
+  "previous": "Précédent",
+  "close": "Fermer",
+  "open": "Ouvrir",
+  "yes": "Oui",
+  "no": "Non",
+  "ok": "OK",
+  "copy": "Copier",
+  "paste": "Coller",
+  "cut": "Couper",
+  "undo": "Annuler",
+  "redo": "Rétablir",
+  "refresh": "Actualiser",
+  "download": "Télécharger",
+  "upload": "Téléverser",
+  "print": "Imprimer",
+  "share": "Partager",
+  "settings": "Paramètres",
+  "profile": "Profil",
+  "logout": "Déconnexion",
+  "login": "Connexion",
+  "register": "S'inscrire",
+  "forgotPassword": "Mot de passe oublié?",
+  "rememberMe": "Se souvenir de moi",
+  "email": "Courriel",
+  "password": "Mot de passe",
+  "confirmPassword": "Confirmer le mot de passe",
+  "firstName": "Prénom",
+  "lastName": "Nom de famille",
+  "phone": "Téléphone",
+  "address": "Adresse",
+  "city": "Ville",
+  "province": "Province",
+  "postalCode": "Code postal",
+  "country": "Pays",
+  "language": "Langue",
+  "theme": "Thème",
+  "darkMode": "Mode sombre",
+  "lightMode": "Mode clair",
+  "autoMode": "Mode automatique",
+  "hero": {
+    "title": "De la Demande à l'Intégration",
+    "subtitle": "Nous Guidons Votre Parcours",
+    "description": "Angitha est votre partenaire de confiance pour la préparation universitaire et les services d'établissement au Canada.",
+    "details": "Que vous soyez un étudiant du secondaire préparant des études universitaires ou un nouveau venu cherchant un soutien en immigration, établissement et emploi, nous fournissons un accompagnement complet à chaque étape.",
+    "expertise": "Notre expertise s'étend de la planification académique et des demandes d'admission universitaires aux processus d'immigration et à l'intégration réussie dans la société canadienne.",
+    "cta": "Prêt à commencer votre parcours ?",
+    "phone": "+1 (450) 500-0088",
+    "button": "Commencer Aujourd'hui",
+    "exploreServices": "Explorer Nos Services",
+    "contactUs": "Contactez-Nous"
+  },
+  "about": {
+    "title": "À Propos MB Group",
+    "virtualTour": {
+      "title": "Visite virtuelle de la maison",
+      "description": "Nous vous offrons une visite virtuelle"
+    },
+    "bestDeal": {
+      "title": "Trouver la meilleure offre",
+      "description": "Parcourir des milliers de propriétés"
+    },
+    "description1": "MB Group est une entreprise canadienne reconnue pour son savoir-faire en promotion immobilière résidentielle et commerciale. Forte de plus de 25 ans d'expérience, notre société s'est imposée comme un acteur de référence dans la conception et la réalisation de projets immobiliers innovants, durables et à haute valeur ajoutée.",
+    "description2": "Depuis sa fondation, notre firme a acquis une solide expérience et une excellente réputation en tant que promoteur/entrepreneur et développeur immobilier en multi-logements.",
+    "description3": "Vous pouvez compter sur nous pour la construction de bâtiments du début jusqu'à la fin du projet. Pour ce faire, nous réunissons une équipe de professionnels composée de nos fidèles partenaires de toutes professions.",
+    "description4": "Notre société de promotion immobilière est reconnue pour proposer des services professionnels clé en main avec un design-construction à prix fixe. Nous nous assurons d'optimiser le budget d'investissement et de terminer le projet juste à temps."
+  },
+  "services": {
+    "title": "NOS SERVICES",
+    "subtitle": "Chez Angitha, nous fournissons des services de soutien complets conçus pour aider les nouveaux arrivants, réfugiés, étudiants et chercheurs d'emploi à s'intégrer avec succès dans la société canadienne et à atteindre leurs objectifs.",
+    "newcomerServices": {
+      "badge": "Bienvenue au Canada",
+      "title": "Services aux Nouveaux Arrivants & Réfugiés",
+      "moreDetails": "Plus de détails"
+    },
+    "studentServices": {
+      "badge": "Soutien académique",
+      "title": "Services aux Étudiants & Information",
+      "moreDetails": "Plus de détails"
+    },
+    "employmentServices": {
+      "badge": "Croissance de carrière",
+      "title": "Services d'Emploi",
+      "moreDetails": "Plus de détails"
+    },
+    "guidanceServices": {
+      "badge": "Conseils d'experts",
+      "title": "Services de Guidance",
+      "moreDetails": "Plus de détails"
+    },
+    "futureDirections": {
+      "badge": "Planifier l'avenir",
+      "title": "Orientations Futures",
+      "moreDetails": "Plus de détails"
+    },
+    "communityIntegration": {
+      "badge": "INTÉGRATION & SOUTIEN COMMUNAUTAIRE",
+      "title": "Construire un meilleur avenir ensemble",
+      "description": "Notre approche globale de l'intégration des nouveaux arrivants se concentre sur la fourniture de services essentiels qui répondent aux défis uniques auxquels font face les individus et familles qui commencent leur parcours au Canada. Nous croyons en la création d'un environnement de soutien où chacun peut s'épanouir et contribuer à bâtir une communauté plus forte et plus inclusive."
+    }
+  },
+  "features": {
+    "title": "De bonnes raisons de nous faire confiance",
+    "trustHighlight": "confiance",
+    "subtitle": "Depuis plus de 25 ans, nous bâtissons des projets solides, durables et humains. Notre expertise, notre transparence et notre engagement envers la qualité font de MB Group un partenaire fiable",
+    "rigueur": {
+      "title": "Rigueur",
+      "description": "Nous appliquons avec rigueur les normes du Code National du Bâtiment qui sont en vigueur. Nous bâtissons des projets solides, durables et humains"
+    },
+    "professionalisme": {
+      "title": "Professionalisme",
+      "description": "Membres de l'Institut des Économistes en Construction, l'Association des Constructeurs et Développement Urbain du Québec"
+    },
+    "serviceSurMesure": {
+      "title": "Service sur mesure",
+      "description": "Notre objectif est de bâtir des projets clé en main qui répondent aux besoins du marché."
+    },
+    "statistics": {
+      "propertyReturnRate": "Taux de retour des propriétés",
+      "propertyInSellRent": "Propriétés en vente et location",
+      "dailyCompletedTransactions": "Transactions quotidiennes complétées"
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Prêt à commencer votre parcours migratoire ? Notre équipe d'experts est là pour vous accompagner à chaque étape.",
+    "form": {
+      "title": "Demande de Consultation",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "company": "Entreprise",
+      "projectType": "Type de projet",
+      "message": "Message",
+      "namePlaceholder": "Votre nom complet",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "phonePlaceholder": "(514) 123-4567",
+      "companyPlaceholder": "Nom de votre entreprise",
+      "messagePlaceholder": "Décrivez votre projet en détail...",
+      "projectTypeOptions": {
+        "select": "Sélectionnez un type de projet",
+        "residential": "Développement Résidentiel",
+        "commercial": "Développement Commercial",
+        "mixed": "Projet Mixte",
+        "renovation": "Rénovation",
+        "other": "Autre"
+      },
+      "submit": "Envoyer la demande",
+      "required": "obligatoire"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse",
+      "hours": "Horaires",
+      "phoneValue": "450-500-0088",
+      "emailValue": "info@angitha.com",
+      "addressValue": "Montréal, Québec, Canada",
+      "hoursValue": "Lun-Ven: 8h00 - 17h00"
+    },
+    "map": {
+      "title": "Carte interactive",
+      "subtitle": "Intégrez Google Maps ici"
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi nous choisir ?",
+      "freeConsultation": "Consultation gratuite et sans engagement",
+      "quickResponse": "Réponse sous 24 heures",
+      "experience": "25 ans d'expérience au Québec",
+      "fixedPrice": "Prix fixe garanti"
+    },
+    "banner": {
+      "message": "Commencez votre parcours canadien avec Angitha - Services d'immigration et aux étudiants experts",
+      "learnMore": "En savoir plus",
+      "close": "Fermer la bannière"
+    }
+  },
+  "projects": {
+    "viewAll": "Voir tous les projets",
+    "title": "Nos Réalisations",
+    "subtitle": "Plus de 25 ans d'expertise en développement immobilier à travers le Québec. Découvrez nos projets qui façonnent l'avenir urbain.",
+    "categories": {
+      "all": "Tous les projets",
+      "residential": "Résidentiel",
+      "commercial": "Commercial",
+      "mixed": "Mixte"
+    },
+    "portfolioCTA": "Découvrez l'ensemble de notre portfolio et nos projets en cours",
+    "items": {
+      "jardinsBrossard": {
+        "title": "Les Jardins de Brossard",
+        "description": "Complexe résidentiel moderne de 120 unités avec espaces verts intégrés."
+      },
+      "centreCommercialRiviere": {
+        "title": "Centre Commercial Rivière",
+        "description": "Centre commercial moderne avec restaurants et boutiques spécialisées."
+      },
+      "residenceMontRoyal": {
+        "title": "Résidence Mont-Royal",
+        "description": "Tours résidentielles de luxe avec vue panoramique sur la ville."
+      },
+      "complexeUrbainLaval": {
+        "title": "Complexe Urbain Laval",
+        "description": "Développement mixte combinant résidences, bureaux et commerces."
+      },
+      "terrassesVertes": {
+        "title": "Les Terrasses Vertes",
+        "description": "Maisons en rangée écologiques avec technologies durables."
+      },
+      "bureauCorporatePlaza": {
+        "title": "Bureau Corporate Plaza",
+        "description": "Immeuble de bureaux moderne avec espaces collaboratifs innovants."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Découvrez les témoignages de nos clients qui ont fait confiance à MB Group pour leurs projets immobiliers les plus importants.",
+    "stats": {
+      "satisfiedClients": "Clients satisfaits",
+      "completedProjects": "Projets réalisés",
+      "yearsExperience": "Années d'expérience",
+      "responseTime": "Temps de réponse"
+    },
+    "items": {
+      "homeExpectations": {
+        "title": "Un chez-soi à la hauteur de nos attentes",
+        "content": "Nous avons emménagé dans notre nouveau condo il y a quelques mois, et tout a été parfaitement pensé. L'équipe a su répondre à toutes nos attentes.",
+        "name": "Famille Tremblay",
+        "position": "Acheteurs"
+      },
+      "trustedPartner": {
+        "title": "Un partenaire de confiance pour mes investissements",
+        "content": "Collaborer avec MB Group, c'est avoir l'assurance d'un projet bien exécuté, transparent et rentable. Leur expertise en gestion et leur rigueur.",
+        "name": "Marc Gagnon",
+        "position": "Investisseur immobilier"
+      },
+      "smoothCollaboration": {
+        "title": "Une collaboration fluide et inspirante",
+        "content": "Travailler avec MB Group est un vrai plaisir. Leur vision est claire et créative, et ils valorisent vraiment le travail en équipe. Un promoteur qui sait bâtir.",
+        "name": "Makenna Korsgaard",
+        "position": "Architecte partenaire"
+      },
+      "communityCommitment": {
+        "title": "Un engagement sincère envers les collectivités",
+        "content": "Dans le cadre d'un projet de logements abordables, MB Group a démontré un réel engagement envers l'amélioration de la vie et l'intégration communautaire.",
+        "name": "Sophie Martineau",
+        "position": "Urbaniste"
+      },
+      "constructionExcellence": {
+        "title": "Excellence en construction commerciale",
+        "content": "Notre centre commercial a été livré dans les délais et le budget prévu. L'équipe de MB Group maîtrise parfaitement les projets complexes.",
+        "name": "Jean-François Roy",
+        "position": "Propriétaire commercial"
+      },
+      "innovationSustainability": {
+        "title": "Innovation et durabilité remarquables",
+        "content": "Leur approche intègre parfaitement les technologies vertes et les certifications LEED. Un vrai pionnier du développement durable.",
+        "name": "Marie-Claire Dubois",
+        "position": "Consultante environnementale"
+      },
+      "exceptionalService": {
+        "title": "Service client exceptionnel",
+        "content": "De la première rencontre à la remise des clés, chaque étape a été gérée avec professionnalisme. Communication claire et transparente.",
+        "name": "David Chen",
+        "position": "Copropriétaire"
+      },
+      "strategicVision": {
+        "title": "Vision stratégique impressionnante",
+        "content": "Leur capacité à anticiper les tendances du marché et à développer des projets innovants fait de MB Group un leader de l'industrie.",
+        "name": "Isabella Rodriguez",
+        "position": "Analyste immobilier"
+      }
+    }
+  },
+  "footer": {
+    "description": "Votre partenaire de confiance pour la préparation universitaire et les services d'établissement au Canada. Nous guidons votre parcours de la demande à l'intégration.",
+    "navigation": "Navigation",
+    "ourServices": "Nos Services",
+    "contact": "Contact",
+    "getStartedToday": "Commencer Aujourd'hui",
+    "allRightsReserved": "Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfUse": "Conditions d'utilisation",
+    "cookiePolicy": "Politique de cookies",
+    "quickLinks": {
+      "home": "Accueil",
+      "about": "À propos",
+      "services": "Services",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "services": {
+      "universityPrep": "Préparation Universitaire",
+      "immigration": "Services d'Immigration",
+      "settlement": "Services d'Établissement",
+      "employment": "Support à l'Emploi"
+    },
+    "contactInfo": {
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse"
+    }
+  },
+  "partners": {
+    "title": "Nos Partenaires de Confiance",
+    "subtitle": "Nous collaborons avec des leaders de l'industrie pour offrir des résultats exceptionnels"
+  }
+}
