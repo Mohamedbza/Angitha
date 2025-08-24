@@ -13,18 +13,11 @@ const eslintConfig = [
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
-    plugins: {
-      prettier: (await import('eslint-plugin-prettier')).default,
-    },
     rules: {
-      'prettier/prettier': 'error',
       'arrow-body-style': 'off',
       'prefer-arrow-callback': 'off',
     },
   },
-  ...compat.config({
-    extends: ['prettier'],
-  }),
 ];
 
 export default eslintConfig;

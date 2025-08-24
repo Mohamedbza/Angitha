@@ -42,7 +42,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
         transition: {
           duration,
           delay,
-          ease: [0.25, 0.46, 0.45, 0.94]
+          ease: "easeInOut"
         }
       }
     };
@@ -60,8 +60,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 100,
               damping: 20,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -78,8 +77,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 80,
               damping: 25,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -96,8 +94,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 80,
               damping: 25,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -114,8 +111,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 100,
               damping: 20,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -132,8 +128,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 60,
               damping: 30,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -150,8 +145,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 60,
               damping: 30,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -168,8 +162,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 120,
               damping: 15,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -186,8 +179,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 100,
               damping: 20,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
@@ -204,8 +196,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 200,
               damping: 10,
               duration,
-              delay,
-              ease: [0.68, -0.55, 0.265, 1.55]
+              delay
             }
           }
         };
@@ -222,8 +213,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
               stiffness: 80,
               damping: 25,
               duration,
-              delay,
-              ease: [0.25, 0.46, 0.45, 0.94]
+              delay
             }
           }
         };
