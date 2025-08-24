@@ -54,10 +54,10 @@
   "hero": {
     "title": "De la Demande à l'Intégration",
     "subtitle": "Nous Guidons Votre Parcours",
-    "description": "Angitha est votre partenaire de confiance pour la préparation universitaire et les services d'établissement au Canada.",
+    "description": "Angitha est votre partenaire de confiance pour la préparation universitaire et les services d'établissement au Canada. Nous nous spécialisons dans la planification académique, les demandes d'admission universitaires, les processus d'immigration et l'intégration réussie dans la société canadienne.",
     "details": "Que vous soyez un étudiant du secondaire préparant des études universitaires ou un nouveau venu cherchant un soutien en immigration, établissement et emploi, nous fournissons un accompagnement complet à chaque étape.",
-    "expertise": "Notre expertise s'étend de la planification académique et des demandes d'admission universitaires aux processus d'immigration et à l'intégration réussie dans la société canadienne.",
-    "cta": "Prêt à commencer votre parcours ?",
+    "expertise": "Nos services de soutien complets sont conçus pour aider les nouveaux arrivants, réfugiés, étudiants et chercheurs d'emploi à s'intégrer dans la société canadienne et à atteindre leurs objectifs. Notre approche de l'intégration des nouveaux arrivants est globale et se concentre sur la fourniture de services essentiels qui répondent aux défis uniques auxquels font face les individus et familles qui commencent leur parcours au Canada.",
+    "cta": "Êtes-vous prêt à commencer votre parcours migratoire ? nous sommes là pour vous accompagner à chaque étape !",
     "phone": "+1 (450) 500-0088",
     "button": "Commencer Aujourd'hui",
     "exploreServices": "Explorer Nos Services",
@@ -142,14 +142,23 @@
       "name": "Nom complet",
       "email": "Email",
       "phone": "Téléphone",
-      "company": "Entreprise",
-      "projectType": "Type de projet",
+      "subject": "Sujet",
+      "otherSubject": "Autre sujet",
       "message": "Message",
       "namePlaceholder": "Votre nom complet",
       "emailPlaceholder": "votre.email@exemple.com",
       "phonePlaceholder": "(514) 123-4567",
-      "companyPlaceholder": "Nom de votre entreprise",
+      "subjectPlaceholder": "Sélectionnez un sujet",
       "messagePlaceholder": "Décrivez votre projet en détail...",
+      "subjectOptions": {
+        "newcomerServices": "Services aux nouveaux arrivants et réfugiés",
+        "studentServices": "Services et informations pour étudiants",
+        "employmentServices": "Services d'emploi et d'intégration",
+        "guidanceServices": "Services de guidance et d'orientation",
+        "futurePlanning": "Planification d'avenir et développement",
+        "other": "Autre"
+      },
+      "otherSubjectPlaceholder": "Décrivez votre sujet de consultation",
       "projectTypeOptions": {
         "select": "Sélectionnez un type de projet",
         "residential": "Développement Résidentiel",
@@ -159,7 +168,12 @@
         "other": "Autre"
       },
       "submit": "Envoyer la demande",
-      "required": "obligatoire"
+      "required": "obligatoire",
+      "successTitle": "Message envoyé avec succès !",
+      "successMessage": "Votre message a été envoyé avec succès ! Nous vous contacterons bientôt.",
+      "sendAnotherMessage": "Envoyer un autre message",
+      "errorMessage": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard.",
+      "generalError": "Une erreur est survenue. Veuillez réessayer plus tard."
     },
     "info": {
       "title": "Informations de Contact",

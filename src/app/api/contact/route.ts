@@ -5,9 +5,22 @@ interface ContactFormData {
   name: string;
   email: string;
   phone: string;
-  company?: string;
-  projectType?: string;
+  subject: string;
+  otherSubject?: string;
   message: string;
+}
+
+// Helper function to get subject display value
+function getSubjectDisplayValue(subjectKey: string): string {
+  const subjectMap: { [key: string]: string } = {
+    'newcomerServices': 'Newcomer & Refugee Services',
+    'studentServices': 'Student Services & Information',
+    'employmentServices': 'Employment & Integration Services',
+    'guidanceServices': 'Guidance & Orientation Services',
+    'futurePlanning': 'Future Planning & Development',
+    'other': 'Other'
+  };
+  return subjectMap[subjectKey] || subjectKey;
 }
 
 export async function POST(request: NextRequest) {
@@ -15,7 +28,7 @@ export async function POST(request: NextRequest) {
   try {
     const body: ContactFormData = await request.json();
     console.log('📝 Form data received:', body);
-    const { name, email, phone, company, projectType, message } = body;
+    const { name, email, phone, subject, otherSubject, message } = body;
 
     // Basic validation
     if (!name || !email || !message) {
@@ -87,11 +100,9 @@ export async function POST(request: NextRequest) {
                 <strong>Nouvelle demande:</strong> Une personne s'intéresse à vos services et a besoin d'une réponse dans les 24 heures.
               </div>
               
-              ${projectType ? `
-              <div style="text-align: center; margin-bottom: 20px;">
-                <span class="form-type-badge">${projectType.toUpperCase()}</span>
-              </div>
-              ` : ''}
+                             <div style="text-align: center; margin-bottom: 20px;">
+                 <span class="form-type-badge">${getSubjectDisplayValue(subject).toUpperCase()}</span>
+               </div>
               
               <div class="client-info">
                 <h2 style="color: #961d1f; margin-bottom: 15px; font-size: 18px;">Informations du client</h2>
@@ -108,16 +119,14 @@ export async function POST(request: NextRequest) {
                     <div class="info-label">Numéro de téléphone</div>
                     <div class="info-value"><a href="tel:${phone}" style="color: #961d1f; text-decoration: none;">${phone}</a></div>
                   </div>
-                  ${company ? `
+                                     <div class="info-item">
+                     <div class="info-label">Sujet</div>
+                     <div class="info-value"><span style="background-color: #961d1f; color: white; padding: 3px 8px; border-radius: 12px; font-size: 12px;">${getSubjectDisplayValue(subject)}</span></div>
+                   </div>
+                  ${otherSubject ? `
                   <div class="info-item">
-                    <div class="info-label">Entreprise</div>
-                    <div class="info-value">${company}</div>
-                  </div>
-                  ` : ''}
-                  ${projectType ? `
-                  <div class="info-item">
-                    <div class="info-label">Type de projet</div>
-                    <div class="info-value"><span style="background-color: #961d1f; color: white; padding: 3px 8px; border-radius: 12px; font-size: 12px;">${projectType}</span></div>
+                    <div class="info-label">Autre sujet</div>
+                    <div class="info-value">${otherSubject}</div>
                   </div>
                   ` : ''}
                 </div>
@@ -159,8 +168,8 @@ INFORMATIONS CLIENT:
 • Nom: ${name}
 • Email: ${email}
 • Téléphone: ${phone}
-${company ? `• Entreprise: ${company}` : ''}
-${projectType ? `• Type de projet: ${projectType}` : ''}
+• Sujet: ${getSubjectDisplayValue(subject)}
+${otherSubject ? `• Autre sujet: ${otherSubject}` : ''}
 
 MESSAGE:
 ${message}

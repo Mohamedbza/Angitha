@@ -87,13 +87,13 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
         aria-label='Toggle mobile menu'
       >
         <span
-          className={`block w-6 h-0.5 bg-[#2d2e2e] transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}
+          className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}
         ></span>
         <span
-          className={`block w-6 h-0.5 bg-[#2d2e2e] transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`}
+          className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`}
         ></span>
         <span
-          className={`block w-6 h-0.5 bg-[#2d2e2e] transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}
+          className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}
         ></span>
       </button>
 

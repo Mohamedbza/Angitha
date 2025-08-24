@@ -54,10 +54,10 @@
   "hero": {
     "title": "From Application to Integration",
     "subtitle": "We Guide Your Journey",
-    "description": "Angitha is your trusted partner for university preparation and Canadian settlement services.",
+    "description": "Angitha is your trusted partner for university preparation and Canadian settlement services. We specialize in academic planning, university applications, immigration processes, and successful integration into Canadian society.",
     "details": "Whether you're a high school student preparing for university studies or a newcomer seeking immigration, settlement, and employment support, we provide comprehensive guidance every step of the way.",
-    "expertise": "Our expertise spans from academic planning and university applications to immigration processes and successful integration into Canadian society.",
-    "cta": "Ready to start your journey?",
+    "expertise": "Our comprehensive support services are designed to help newcomers, refugees, students, and job seekers integrate into Canadian society and achieve their goals. Our approach to newcomer integration is comprehensive and focuses on providing essential services that address the unique challenges individuals and families face when starting their journey in Canada.",
+    "cta": "Are you ready to start your migration journey? we are here to guide you every step of the way!",
     "phone": "+1 (450) 500-0088",
     "button": "Get Started Today",
     "exploreServices": "Explore Our Services",
@@ -142,14 +142,23 @@
       "name": "Full Name",
       "email": "Email",
       "phone": "Phone",
-      "company": "Company",
-      "projectType": "Project Type",
+      "subject": "Subject",
+      "otherSubject": "Other Subject",
       "message": "Message",
       "namePlaceholder": "Your full name",
       "emailPlaceholder": "your.email@example.com",
       "phonePlaceholder": "(514) 123-4567",
-      "companyPlaceholder": "Your company name",
+      "subjectPlaceholder": "Select a subject",
       "messagePlaceholder": "Describe your project in detail...",
+      "subjectOptions": {
+        "newcomerServices": "Newcomer & Refugee Services",
+        "studentServices": "Student Services & Information",
+        "employmentServices": "Employment & Integration Services",
+        "guidanceServices": "Guidance & Orientation Services",
+        "futurePlanning": "Future Planning & Development",
+        "other": "Other"
+      },
+      "otherSubjectPlaceholder": "Describe your consultation subject",
       "projectTypeOptions": {
         "select": "Select a project type",
         "residential": "Residential Development",
@@ -159,7 +168,12 @@
         "other": "Other"
       },
       "submit": "Send Request",
-      "required": "required"
+      "required": "required",
+      "successTitle": "Message Sent Successfully!",
+      "successMessage": "Your message has been sent successfully! We will contact you soon.",
+      "sendAnotherMessage": "Send Another Message",
+      "errorMessage": "An error occurred while sending the message. Please try again later.",
+      "generalError": "An error occurred. Please try again later."
     },
     "info": {
       "title": "Contact Information",

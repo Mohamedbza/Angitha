@@ -1,3 +1,5 @@
+'use client';
+
 import TopBanner from '@/components/TopBanner';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -11,7 +13,7 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <div className='font-sans min-h-screen'>
-     {/* <TopBanner /> */}
+      {/* <TopBanner /> */}
       <Navbar />
       <Hero />
       <Partners />
