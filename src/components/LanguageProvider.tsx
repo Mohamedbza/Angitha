@@ -7,7 +7,7 @@ import '../lib/i18n';
 interface LanguageContextType {
   currentLanguage: string;
   changeLanguage: (language: string) => void;
-  t: (key: string, options?: any) => string;
+  t: (key: string, options?: Record<string, unknown>) => string;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(

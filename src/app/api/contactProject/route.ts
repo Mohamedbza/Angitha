@@ -34,9 +34,18 @@ export async function POST(req: Request) {
     });
 
     // Prepare email content and attachments
-    const mailOptions: any = {
-      from: process.env.SMTP_FROM,
-      to: process.env.CONTACT_EMAIL,
+    const mailOptions: {
+      from: string;
+      to: string;
+      subject: string;
+      html: string;
+      attachments?: Array<{
+        filename: string;
+        content: Buffer;
+      }>;
+    } = {
+      from: process.env.SMTP_FROM || '',
+      to: process.env.CONTACT_EMAIL || '',
       subject: `Nouvelle demande de projet de ${name}`,
       html: `
         <!DOCTYPE html>

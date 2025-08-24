@@ -43,7 +43,7 @@ export function useI18n(namespace?: Namespace) {
 
   // Get translation with fallback
   const translate = useCallback(
-    (key: string, options?: any) => {
+    (key: string, options?: Record<string, unknown>) => {
       return t(key, options);
     },
     [t]
@@ -51,7 +51,7 @@ export function useI18n(namespace?: Namespace) {
 
   // Get translation with namespace
   const translateWithNS = useCallback(
-    (namespace: Namespace, key: string, options?: any) => {
+    (namespace: Namespace, key: string, options?: Record<string, unknown>) => {
       return t(key, { ns: namespace, ...options });
     },
     [t]

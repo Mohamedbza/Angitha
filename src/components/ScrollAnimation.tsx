@@ -41,8 +41,7 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
         opacity: 1,
         transition: {
           duration,
-          delay,
-          ease: "easeInOut"
+          delay
         }
       }
     };
@@ -56,9 +55,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             y: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 100,
-              damping: 20,
               duration,
               delay
             }
@@ -73,9 +69,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             x: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 80,
-              damping: 25,
               duration,
               delay
             }
@@ -90,9 +83,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             x: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 80,
-              damping: 25,
               duration,
               delay
             }
@@ -107,9 +97,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             scale: 1, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 100,
-              damping: 20,
               duration,
               delay
             }
@@ -124,9 +111,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             y: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 60,
-              damping: 30,
               duration,
               delay
             }
@@ -141,9 +125,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             y: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 60,
-              damping: 30,
               duration,
               delay
             }
@@ -158,9 +139,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             scale: 1, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 120,
-              damping: 15,
               duration,
               delay
             }
@@ -175,9 +153,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             rotateY: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 100,
-              damping: 20,
               duration,
               delay
             }
@@ -192,9 +167,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             scale: 1, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 200,
-              damping: 10,
               duration,
               delay
             }
@@ -209,9 +181,6 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
             y: 0, 
             filter: 'blur(0px)',
             transition: {
-              type: 'spring',
-              stiffness: 80,
-              damping: 25,
               duration,
               delay
             }

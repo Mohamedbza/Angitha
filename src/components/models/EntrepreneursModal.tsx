@@ -73,9 +73,9 @@ const EntrepreneursModal: React.FC<EntrepreneursModalProps> = ({ isOpen, onClose
                         <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2 sm:mb-3">Description</h3>
                         <div className="space-y-2 text-xs sm:text-sm text-gray-700">
                           <p>La société MB Groupe Canada est un promoteur immobilier résidentiel et commercial au Canada</p>
-                          <p>Depuis notre création, notre société a acquis une solide expérience et une réputation en tant que promoteur/entrepreneur en construction résidentielle et commerciale. Nous prenons en main des projets de toute envergure. Faire affaire avec notre société, c'est la garantie d'un projet clé en main. Nous sommes capables de soumissionner plusieurs professionnels afin de respecter le budget préétabli.</p>
-                          <p>Nous proposons nos services pour des projets immobiliers d'envergure, gérés par un interlocuteur unique. Notre société regroupe l'ensemble des expertises et compétences nécessaires pour la conception, la réalisation et l'achèvement de votre projet immobilier.</p>
-                          <p>Proactifs et à l'écoute, nous développons et investissons avec nos partenaires professionnels (architectes, ingénieurs...). Nous appliquons avec rigueur les normes du Code National du Bâtiment qui sont en vigueur, spécialement les nouvelles normes sismiques.</p>
+                          <p>Depuis notre création, notre société a acquis une solide expérience et une réputation en tant que promoteur/entrepreneur en construction résidentielle et commerciale. Nous prenons en main des projets de toute envergure. Faire affaire avec notre société, c&apos;est la garantie d&apos;un projet clé en main. Nous sommes capables de soumissionner plusieurs professionnels afin de respecter le budget préétabli.</p>
+                          <p>Nous proposons nos services pour des projets immobiliers d&apos;envergure, gérés par un interlocuteur unique. Notre société regroupe l&apos;ensemble des expertises et compétences nécessaires pour la conception, la réalisation et l&apos;achèvement de votre projet immobilier.</p>
+                          <p>Proactifs et à l&apos;écoute, nous développons et investissons avec nos partenaires professionnels (architectes, ingénieurs...). Nous appliquons avec rigueur les normes du Code National du Bâtiment qui sont en vigueur, spécialement les nouvelles normes sismiques.</p>
                         </div>
                       </div>
 
@@ -83,7 +83,7 @@ const EntrepreneursModal: React.FC<EntrepreneursModalProps> = ({ isOpen, onClose
                       <div className="space-y-4 sm:space-y-6">
                         {/* Expertise */}
                         <div>
-                          <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2 sm:mb-3">Métiers / Domaines d'expertise</h3>
+                          <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2 sm:mb-3">Métiers / Domaines d&apos;expertise</h3>
                           <ul className="list-disc pl-4 space-y-1 text-xs sm:text-sm text-gray-700">
                             <li>Promoteur / entrepreneur et développeur en immobilier</li>
                             <li>Gestionnaire de projets immobiliers</li>

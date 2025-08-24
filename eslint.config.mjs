@@ -16,6 +16,10 @@ const eslintConfig = [
     rules: {
       'arrow-body-style': 'off',
       'prefer-arrow-callback': 'off',
+      'react/no-unescaped-entities': 'warn',
+      '@typescript-eslint/no-unused-vars': 'warn',
+      '@next/next/no-img-element': 'warn',
+      'react-hooks/exhaustive-deps': 'warn',
     },
   },
 ];

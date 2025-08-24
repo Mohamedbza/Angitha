@@ -72,7 +72,7 @@ const ContratCoutFixeModal: React.FC<ContratCoutFixeModalProps> = ({ isOpen, onC
                         <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2 sm:mb-3">Design Your Tomorrow, Today</h3>
                         <div className="space-y-2 text-xs sm:text-sm text-gray-700">
                           <p>For future planning and life direction, turn to Angitha, your partner in building sustainable futures and achieving long-term goals across Canada.</p>
-                          <p>We are an active life planning organization serving individuals and families primarily in Quebec and Ontario, helping them create the life they've always dreamed of.</p>
+                          <p>We are an active life planning organization serving individuals and families primarily in Quebec and Ontario, helping them create the life they&apos;ve always dreamed of.</p>
                           <p>Trust us with your entire future planning journey. We select our partners through a rigorous process, considering all legal, administrative, and technical aspects of your goals.</p>
                           <p>We propose ingenious solutions for all life planning needs.</p>
                         </div>
