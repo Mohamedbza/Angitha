@@ -10,7 +10,7 @@ interface ScrollAnimationProps {
   animation?: 'fadeInUp' | 'fadeInLeft' | 'fadeInRight' | 'scaleIn' | 'slideUp' | 'slideDown' | 'zoomIn' | 'flipIn' | 'bounceIn' | 'slideInFromBottom';
   delay?: number;
   duration?: number;
-  threshold?: number;
+  amount?: number;
   once?: boolean;
   stagger?: boolean;
   staggerDelay?: number;
@@ -22,14 +22,14 @@ const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
   animation = 'fadeInUp',
   delay = 0,
   duration = 0.8,
-  threshold = 0.1,
+  amount = 0.1,
   once = true,
   stagger = false,
   staggerDelay = 0.1
 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { 
-    threshold, 
+    amount, 
     once,
     margin: '0px 0px -100px 0px'
   });
