@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
       value: 'contact@angitha.com',
       href: 'mailto:contact@angitha.com',
     },
-    { label: t('footer.contactInfo.address'), value: 'Montréal, Québec, Canada', href: '#' },
+    { label: t('footer.contactInfo.address'), value: 'Worldwide ', href: '#' },
   ];
 
   const handleGetQuote = () => {

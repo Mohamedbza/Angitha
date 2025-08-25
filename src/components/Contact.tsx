@@ -115,7 +115,7 @@ const Contact: React.FC = () => {
       title: t('contact.info.address'),
       value: t('contact.info.addressValue'),
       icon: HiOutlineMapPin,
-      href: 'https://www.google.com/maps?q=Montréal,+Québec,+Canada',
+      href: 'https://www.google.com/maps/',
       target: '_blank',
       rel: 'noopener noreferrer',
     },
@@ -361,12 +361,12 @@ const Contact: React.FC = () => {
               <ScrollAnimation animation="zoomIn" delay={0.9}>
                 <div className='bg-gray-200 h-64 rounded-lg overflow-hidden mb-8'>
                   <a
-                    href='https://www.google.com/maps?q=Montréal,+Québec,+Canada'
+                    href='https://www.google.com/maps?q=Canada'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     <iframe
-                      src='https://www.google.com/maps?q=Montréal,+Québec,+Canada&output=embed'
+                      src='https://www.google.com/maps?q=Canada&output=embed'
                       width='100%'
                       height='100%'
                       style={{ border: 0 }}
