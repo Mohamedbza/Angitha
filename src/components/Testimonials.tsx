@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from './LanguageProvider';
 import { HiOutlineChatBubbleLeftEllipsis } from 'react-icons/hi2';
+import { motion } from 'framer-motion';
 
 const Testimonials: React.FC = () => {
   const { t } = useLanguage();
@@ -187,17 +188,41 @@ const Testimonials: React.FC = () => {
     <section className='bg-gray-50 py-16 md:py-20 lg:py-24'>
       <div className='max-w-7xl mx-auto px-4 md:px-8'>
         {/* Section Header */}
-        <div className='text-center mb-16'>
-          <h2 className='text-4xl md:text-5xl font-bold text-[#2d2e2e] mb-6'>
+        <motion.div 
+          className='text-center mb-16'
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <motion.h2 
+            className='text-4xl md:text-5xl font-bold text-[#2d2e2e] mb-6'
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          >
             {t('testimonials.title')}
-          </h2>
-          <p className='text-lg text-[#666666] max-w-3xl mx-auto leading-relaxed'>
+          </motion.h2>
+          <motion.p 
+            className='text-lg text-[#666666] max-w-3xl mx-auto leading-relaxed'
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+          >
             {t('testimonials.subtitle')}
-          </p>
-        </div>
+          </motion.p>
+        </motion.div>
 
         {/* Testimonials Carousel */}
-        <div className='relative overflow-hidden'>
+        <motion.div 
+          className='relative overflow-hidden'
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+        >
           {/* Desktop/Tablet: Carousel with transform, Mobile: horizontal scroll with snap */}
           <div
             ref={carouselRef}
@@ -214,14 +239,22 @@ const Testimonials: React.FC = () => {
             style={getCarouselStyle()}
             onScroll={handleScroll}
           >
-            {testimonials.map(testimonial => (
-              <div
+            {testimonials.map((testimonial, index) => (
+              <motion.div
                 key={testimonial.id}
                 className='
                   flex-shrink-0 w-full md:w-1/2 lg:w-1/3
                   snap-center md:snap-none
                   px-1 md:px-0
                 '
+                initial={{ opacity: 0, y: 30, scale: 0.9 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ 
+                  duration: 0.6, 
+                  delay: 0.8 + (index * 0.1), 
+                  ease: "easeOut" 
+                }}
               >
                 <div className='bg-white rounded-2xl p-8 shadow-lg border border-gray-100 h-full flex flex-col'>
                   {/* Quote Icon */}
@@ -256,13 +289,19 @@ const Testimonials: React.FC = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
 
         {/* Carousel Indicators */}
-        <div className='flex justify-center gap-2 mt-12'>
+        <motion.div 
+          className='flex justify-center gap-2 mt-12'
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 1.2, ease: "easeOut" }}
+        >
           {Array.from({ length: testimonials.length }).map((_, index) => (
             <button
               key={index}
@@ -275,35 +314,65 @@ const Testimonials: React.FC = () => {
               aria-label={`Aller au témoignage ${index + 1}`}
             />
           ))}
-        </div>
+        </motion.div>
 
         {/* Trust Stats */}
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-gray-200'>
-          <div className='text-center'>
+        <motion.div 
+          className='grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-gray-200'
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 1.4, ease: "easeOut" }}
+        >
+          <motion.div 
+            className='text-center'
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 1.6, ease: "easeOut" }}
+          >
             <div className='text-3xl md:text-4xl font-bold text-[#961d1f] mb-2'>
               98%
             </div>
             <div className='text-sm text-[#666666]'>{t('testimonials.stats.satisfiedClients')}</div>
-          </div>
-          <div className='text-center'>
+          </motion.div>
+          <motion.div 
+            className='text-center'
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 1.7, ease: "easeOut" }}
+          >
             <div className='text-3xl md:text-4xl font-bold text-[#961d1f] mb-2'>
               150+
             </div>
-            <div className='text-sm text-[#666666]'>{t('testimonials.stats.completedProjects')}</div>
-          </div>
-          <div className='text-center'>
+            <div className='text-sm text-[#666666]'>{t('testimonials.stats.completedApplications')}</div>
+          </motion.div>
+          <motion.div 
+            className='text-center'
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 1.8, ease: "easeOut" }}
+          >
             <div className='text-3xl md:text-4xl font-bold text-[#961d1f] mb-2'>
               25
             </div>
             <div className='text-sm text-[#666666]'>{t('testimonials.stats.yearsExperience')}</div>
-          </div>
-          <div className='text-center'>
+          </motion.div>
+          <motion.div 
+            className='text-center'
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 1.9, ease: "easeOut" }}
+          >
             <div className='text-3xl md:text-4xl font-bold text-[#961d1f] mb-2'>
               24h
             </div>
             <div className='text-sm text-[#666666]'>{t('testimonials.stats.responseTime')}</div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   );

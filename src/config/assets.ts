@@ -26,7 +26,8 @@ export const assets = {
     administrativeManagement: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     physicalManagement: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     marketing: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    EntrepreneursetPromoteurs: '/images/EntrepreneursetPromoteurs.jpg'
+    EntrepreneursetPromoteurs: '/images/EntrepreneursetPromoteurs.jpg',
+    contactus: '/images/contactus.svg'
   },
 
   // Icon paths

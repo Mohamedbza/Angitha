@@ -64,19 +64,19 @@
     "contactUs": "Contact Us"
   },
   "about": {
-    "title": "About MB Group",
+    "title": "About Angitha",
     "virtualTour": {
-      "title": "Virtual home tour",
-      "description": "We provide you with virtual tour"
+      "title": "Student Success Stories",
+      "description": "Discover how we've helped students achieve their dreams"
     },
     "bestDeal": {
-      "title": "Find the best deal",
-      "description": "Browse thousands of properties"
+      "title": "Immigration Excellence",
+      "description": "Professional guidance for your Canadian journey"
     },
-    "description1": "MB Group is a Canadian company recognized for its expertise in residential and commercial real estate development. With over 25 years of experience, our company has established itself as a reference player in the design and implementation of innovative, sustainable, and high-value real estate projects.",
-    "description2": "Since its founding, our firm has acquired solid experience and an excellent reputation as a developer/contractor and multi-housing real estate developer.",
-    "description3": "You can count on us for building construction from start to finish of the project. To do this, we bring together a team of professionals made up of our trusted partners from all professions.",
-    "description4": "Our real estate development company is recognized for offering professional turnkey services with design-construction at a fixed price. We ensure that we optimize the investment budget and complete the project just in time."
+    "description1": "Angitha is a leading Canadian immigration and student services company dedicated to helping newcomers, refugees, students, and job seekers successfully integrate into Canadian society. With years of experience in immigration consulting and academic planning, we provide comprehensive support services that address the unique challenges of starting a new life in Canada.",
+    "description2": "Our team of certified immigration consultants, academic advisors, and settlement specialists work together to create personalized pathways for each client. We understand that every journey is unique, and we tailor our services to meet individual needs and goals.",
+    "description3": "From university applications and academic planning to immigration processes and settlement support, we guide you through every step of your Canadian journey. Our comprehensive approach ensures that you have the knowledge, resources, and support needed to thrive in your new home.",
+    "description4": "At Angitha, we believe in building strong, inclusive communities where everyone can succeed. Our commitment to excellence, personalized service, and ongoing support makes us your trusted partner for a successful transition to life in Canada."
   },
   "services": {
     "title": "OUR SERVICES",
@@ -105,6 +105,11 @@
       "badge": "Planning ahead",
       "title": "Future Directions",
       "moreDetails": "More details"
+    },
+    "contactUs": {
+      "badge": "Get in touch",
+      "title": "Contact Us",
+      "moreDetails": "Get in touch"
     },
     "communityIntegration": {
       "badge": "COMMUNITY INTEGRATION & SUPPORT",
@@ -182,7 +187,7 @@
       "address": "Address",
       "hours": "Hours",
       "phoneValue": "+1647498-7482",
-      "emailValue": "info@angitha.com",
+      "emailValue": "contact@angitha.com",
       "addressValue": "Montreal, Quebec, Canada",
       "hoursValue": "Mon-Fri: 8:00 AM - 5:00 PM"
     },
@@ -243,61 +248,61 @@
   },
   "testimonials": {
     "title": "What Our Clients Say",
-    "subtitle": "Discover testimonials from our clients who have trusted MB Group for their most important real estate projects.",
+    "subtitle": "Discover testimonials from our clients who have trusted Angitha for their immigration and academic journey to Canada.",
     "stats": {
       "satisfiedClients": "Satisfied Clients",
-      "completedProjects": "Completed Projects",
+      "completedApplications": "Successful Applications",
       "yearsExperience": "Years of Experience",
       "responseTime": "Response Time"
     },
     "items": {
       "homeExpectations": {
-        "title": "A home that meets our expectations",
-        "content": "We moved into our new condo a few months ago, and everything was perfectly thought out. The team was able to meet all our expectations.",
+        "title": "A smooth transition to Canadian life",
+        "content": "Angitha guided us through every step of our immigration process. From visa applications to finding our first home, their support was invaluable.",
         "name": "Tremblay Family",
-        "position": "Buyers"
+        "position": "Newcomers from France"
       },
       "trustedPartner": {
-        "title": "A trusted partner for my investments",
-        "content": "Collaborating with MB Group means having the assurance of a well-executed, transparent, and profitable project. Their expertise in management and rigor.",
+        "title": "A trusted partner for my academic journey",
+        "content": "Angitha's expertise in university applications and immigration made my transition to Canadian studies seamless. Their guidance was professional and personalized.",
         "name": "Marc Gagnon",
-        "position": "Real Estate Investor"
+        "position": "International Student"
       },
       "smoothCollaboration": {
-        "title": "Smooth and inspiring collaboration",
-        "content": "Working with MB Group is a real pleasure. Their vision is clear and creative, and they truly value teamwork. A developer who knows how to build.",
+        "title": "Exceptional support throughout the process",
+        "content": "Working with Angitha was a pleasure. Their team provided clear guidance, answered all our questions, and made us feel confident about our future in Canada.",
         "name": "Makenna Korsgaard",
-        "position": "Partner Architect"
+        "position": "Refugee Applicant"
       },
       "communityCommitment": {
-        "title": "Sincere commitment to communities",
-        "content": "In the context of an affordable housing project, MB Group demonstrated real commitment to improving life and community integration.",
+        "title": "Sincere commitment to newcomer success",
+        "content": "Angitha demonstrated real commitment to helping our family integrate into Canadian society. Their settlement services exceeded our expectations.",
         "name": "Sophie Martineau",
-        "position": "Urban Planner"
+        "position": "Family of Newcomers"
       },
       "constructionExcellence": {
-        "title": "Excellence in commercial construction",
-        "content": "Our shopping center was delivered on time and within budget. The MB Group team perfectly masters complex projects.",
+        "title": "Excellence in immigration consulting",
+        "content": "Our permanent residency application was processed efficiently and successfully. Angitha's expertise in immigration law is outstanding.",
         "name": "Jean-François Roy",
-        "position": "Commercial Owner"
+        "position": "Skilled Worker"
       },
       "innovationSustainability": {
-        "title": "Remarkable innovation and sustainability",
-        "content": "Their approach perfectly integrates green technologies and LEED certifications. A true pioneer in sustainable development.",
+        "title": "Innovative approach to settlement services",
+        "content": "Angitha's comprehensive approach to newcomer integration is remarkable. They truly understand the challenges of starting a new life in Canada.",
         "name": "Marie-Claire Dubois",
-        "position": "Environmental Consultant"
+        "position": "Employment Counselor"
       },
       "exceptionalService": {
         "title": "Exceptional customer service",
-        "content": "From the first meeting to the handover of keys, each step was handled with professionalism. Clear and transparent communication.",
+        "content": "From the first consultation to receiving our visas, every step was handled with professionalism. Clear communication and ongoing support.",
         "name": "David Chen",
-        "position": "Co-owner"
+        "position": "Business Immigrant"
       },
       "strategicVision": {
-        "title": "Impressive strategic vision",
-        "content": "Their ability to anticipate market trends and develop innovative projects makes MB Group an industry leader.",
+        "title": "Strategic guidance for long-term success",
+        "content": "Angitha's ability to create personalized pathways for newcomers makes them a leader in immigration and settlement services.",
         "name": "Isabella Rodriguez",
-        "position": "Real Estate Analyst"
+        "position": "Immigration Consultant"
       }
     }
   },

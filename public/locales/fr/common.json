@@ -64,19 +64,19 @@
     "contactUs": "Contactez-Nous"
   },
   "about": {
-    "title": "À Propos MB Group",
+    "title": "À Propos d'Angitha",
     "virtualTour": {
-      "title": "Visite virtuelle de la maison",
-      "description": "Nous vous offrons une visite virtuelle"
+      "title": "Histoires de Réussite Étudiante",
+      "description": "Découvrez comment nous avons aidé les étudiants à réaliser leurs rêves"
     },
     "bestDeal": {
-      "title": "Trouver la meilleure offre",
-      "description": "Parcourir des milliers de propriétés"
+      "title": "Excellence en Immigration",
+      "description": "Accompagnement professionnel pour votre parcours canadien"
     },
-    "description1": "MB Group est une entreprise canadienne reconnue pour son savoir-faire en promotion immobilière résidentielle et commerciale. Forte de plus de 25 ans d'expérience, notre société s'est imposée comme un acteur de référence dans la conception et la réalisation de projets immobiliers innovants, durables et à haute valeur ajoutée.",
-    "description2": "Depuis sa fondation, notre firme a acquis une solide expérience et une excellente réputation en tant que promoteur/entrepreneur et développeur immobilier en multi-logements.",
-    "description3": "Vous pouvez compter sur nous pour la construction de bâtiments du début jusqu'à la fin du projet. Pour ce faire, nous réunissons une équipe de professionnels composée de nos fidèles partenaires de toutes professions.",
-    "description4": "Notre société de promotion immobilière est reconnue pour proposer des services professionnels clé en main avec un design-construction à prix fixe. Nous nous assurons d'optimiser le budget d'investissement et de terminer le projet juste à temps."
+    "description1": "Angitha est une entreprise canadienne leader en services d'immigration et aux étudiants, dédiée à aider les nouveaux arrivants, réfugiés, étudiants et chercheurs d'emploi à s'intégrer avec succès dans la société canadienne. Avec des années d'expérience en consultation d'immigration et planification académique, nous fournissons des services de soutien complets qui répondent aux défis uniques de commencer une nouvelle vie au Canada.",
+    "description2": "Notre équipe de consultants en immigration certifiés, conseillers académiques et spécialistes en établissement travaillent ensemble pour créer des parcours personnalisés pour chaque client. Nous comprenons que chaque parcours est unique, et nous adaptons nos services pour répondre aux besoins et objectifs individuels.",
+    "description3": "Des demandes d'admission universitaires et planification académique aux processus d'immigration et soutien à l'établissement, nous vous guidons à chaque étape de votre parcours canadien. Notre approche globale garantit que vous ayez les connaissances, ressources et soutien nécessaires pour prospérer dans votre nouveau foyer.",
+    "description4": "Chez Angitha, nous croyons en la construction de communautés fortes et inclusives où chacun peut réussir. Notre engagement envers l'excellence, le service personnalisé et le soutien continu fait de nous votre partenaire de confiance pour une transition réussie vers la vie au Canada."
   },
   "services": {
     "title": "NOS SERVICES",
@@ -105,6 +105,11 @@
       "badge": "Planifier l'avenir",
       "title": "Orientations Futures",
       "moreDetails": "Plus de détails"
+    },
+    "contactUs": {
+      "badge": "Contactez-nous",
+      "title": "Contactez-Nous",
+      "moreDetails": "Contactez-nous"
     },
     "communityIntegration": {
       "badge": "INTÉGRATION & SOUTIEN COMMUNAUTAIRE",
@@ -182,7 +187,7 @@
       "address": "Adresse",
       "hours": "Horaires",
       "phoneValue": "+1647498-7482",
-      "emailValue": "info@angitha.com",
+      "emailValue": "contact@angitha.com",
       "addressValue": "Montréal, Québec, Canada",
       "hoursValue": "Lun-Ven: 8h00 - 17h00"
     },
@@ -243,61 +248,61 @@
   },
   "testimonials": {
     "title": "Ce que disent nos clients",
-    "subtitle": "Découvrez les témoignages de nos clients qui ont fait confiance à MB Group pour leurs projets immobiliers les plus importants.",
+    "subtitle": "Découvrez les témoignages de nos clients qui ont fait confiance à Angitha pour leur parcours d'immigration et académique au Canada.",
     "stats": {
       "satisfiedClients": "Clients satisfaits",
-      "completedProjects": "Projets réalisés",
+      "completedApplications": "Demandes réussies",
       "yearsExperience": "Années d'expérience",
       "responseTime": "Temps de réponse"
     },
     "items": {
       "homeExpectations": {
-        "title": "Un chez-soi à la hauteur de nos attentes",
-        "content": "Nous avons emménagé dans notre nouveau condo il y a quelques mois, et tout a été parfaitement pensé. L'équipe a su répondre à toutes nos attentes.",
+        "title": "Une transition en douceur vers la vie canadienne",
+        "content": "Angitha nous a guidés à chaque étape de notre processus d'immigration. Des demandes de visa à la recherche de notre première maison, leur soutien était inestimable.",
         "name": "Famille Tremblay",
-        "position": "Acheteurs"
+        "position": "Nouveaux arrivants de France"
       },
       "trustedPartner": {
-        "title": "Un partenaire de confiance pour mes investissements",
-        "content": "Collaborer avec MB Group, c'est avoir l'assurance d'un projet bien exécuté, transparent et rentable. Leur expertise en gestion et leur rigueur.",
+        "title": "Un partenaire de confiance pour mon parcours académique",
+        "content": "L'expertise d'Angitha en demandes d'admission universitaires et immigration a rendu ma transition vers les études canadiennes sans heurts. Leur accompagnement était professionnel et personnalisé.",
         "name": "Marc Gagnon",
-        "position": "Investisseur immobilier"
+        "position": "Étudiant international"
       },
       "smoothCollaboration": {
-        "title": "Une collaboration fluide et inspirante",
-        "content": "Travailler avec MB Group est un vrai plaisir. Leur vision est claire et créative, et ils valorisent vraiment le travail en équipe. Un promoteur qui sait bâtir.",
+        "title": "Un soutien exceptionnel tout au long du processus",
+        "content": "Travailler avec Angitha était un plaisir. Leur équipe a fourni des conseils clairs, répondu à toutes nos questions et nous a fait sentir confiants pour notre avenir au Canada.",
         "name": "Makenna Korsgaard",
-        "position": "Architecte partenaire"
+        "position": "Demandeur de statut de réfugié"
       },
       "communityCommitment": {
-        "title": "Un engagement sincère envers les collectivités",
-        "content": "Dans le cadre d'un projet de logements abordables, MB Group a démontré un réel engagement envers l'amélioration de la vie et l'intégration communautaire.",
+        "title": "Un engagement sincère envers la réussite des nouveaux arrivants",
+        "content": "Angitha a démontré un réel engagement à aider notre famille à s'intégrer dans la société canadienne. Leurs services d'établissement ont dépassé nos attentes.",
         "name": "Sophie Martineau",
-        "position": "Urbaniste"
+        "position": "Famille de nouveaux arrivants"
       },
       "constructionExcellence": {
-        "title": "Excellence en construction commerciale",
-        "content": "Notre centre commercial a été livré dans les délais et le budget prévu. L'équipe de MB Group maîtrise parfaitement les projets complexes.",
+        "title": "Excellence en consultation d'immigration",
+        "content": "Notre demande de résidence permanente a été traitée efficacement et avec succès. L'expertise d'Angitha en droit de l'immigration est exceptionnelle.",
         "name": "Jean-François Roy",
-        "position": "Propriétaire commercial"
+        "position": "Travailleur qualifié"
       },
       "innovationSustainability": {
-        "title": "Innovation et durabilité remarquables",
-        "content": "Leur approche intègre parfaitement les technologies vertes et les certifications LEED. Un vrai pionnier du développement durable.",
+        "title": "Approche innovante des services d'établissement",
+        "content": "L'approche globale d'Angitha pour l'intégration des nouveaux arrivants est remarquable. Ils comprennent vraiment les défis de commencer une nouvelle vie au Canada.",
         "name": "Marie-Claire Dubois",
-        "position": "Consultante environnementale"
+        "position": "Conseillère en emploi"
       },
       "exceptionalService": {
         "title": "Service client exceptionnel",
-        "content": "De la première rencontre à la remise des clés, chaque étape a été gérée avec professionnalisme. Communication claire et transparente.",
+        "content": "De la première consultation à la réception de nos visas, chaque étape a été gérée avec professionnalisme. Communication claire et soutien continu.",
         "name": "David Chen",
-        "position": "Copropriétaire"
+        "position": "Immigrant d'affaires"
       },
       "strategicVision": {
-        "title": "Vision stratégique impressionnante",
-        "content": "Leur capacité à anticiper les tendances du marché et à développer des projets innovants fait de MB Group un leader de l'industrie.",
+        "title": "Accompagnement stratégique pour la réussite à long terme",
+        "content": "La capacité d'Angitha à créer des parcours personnalisés pour les nouveaux arrivants en fait un leader des services d'immigration et d'établissement.",
         "name": "Isabella Rodriguez",
-        "position": "Analyste immobilier"
+        "position": "Conseillère en immigration"
       }
     }
   },

@@ -54,7 +54,7 @@ const Services: React.FC = () => {
               <ScrollAnimation animation="scaleIn" delay={0.6}>
                 <button
                   onClick={() => setIsGestionnaireContratModalOpen(true)}
-                  className='relative p-6 h-[353px] flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+                  className='relative p-6 h-[353px] w-full flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
                 >
                   <div className='absolute inset-0'>
                     <img
@@ -84,7 +84,7 @@ const Services: React.FC = () => {
               <ScrollAnimation animation="scaleIn" delay={0.7}>
                 <button
                   onClick={() => setIsGestionProjetModalOpen(true)}
-                  className='relative p-6 h-[353px] flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+                  className='relative p-6 h-[353px] w-full flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
                 >
                   <div className='absolute inset-0'>
                     <img
@@ -114,7 +114,7 @@ const Services: React.FC = () => {
               <ScrollAnimation animation="scaleIn" delay={0.8}>
                 <button
                   onClick={() => setIsProjetsCleEnMainModalOpen(true)}
-                  className='relative p-6 h-[353px] flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+                  className='relative p-6 h-[353px] w-full flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
                 >
                   <div className='absolute inset-0'>
                     <img
@@ -144,7 +144,7 @@ const Services: React.FC = () => {
               <ScrollAnimation animation="scaleIn" delay={0.9}>
                 <button
                   onClick={() => setIsLogementAbordableModalOpen(true)}
-                  className='relative p-6 h-[353px] flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+                  className='relative p-6 h-[353px] w-full flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
                 >
                   <div className='absolute inset-0'>
                     <img
@@ -174,7 +174,7 @@ const Services: React.FC = () => {
               <ScrollAnimation animation="scaleIn" delay={1.0}>
                 <button
                   onClick={() => setIsContratCoutFixeModalOpen(true)}
-                  className='relative p-6 h-[353px] flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+                  className='relative p-6 h-[353px] w-full flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
                 >
                   <div className='absolute inset-0'>
                     <img
@@ -198,32 +198,66 @@ const Services: React.FC = () => {
                   </div>
                 </button>
               </ScrollAnimation>
+
+              {/* Service 6 - Contact Us */}
+              <ScrollAnimation animation="scaleIn" delay={1.1}>
+                <button
+                  onClick={() => {
+                    const contactSection = document.getElementById('contact');
+                    if (contactSection) {
+                      contactSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className='relative p-6 h-[353px] w-full flex flex-col justify-end overflow-hidden cursor-pointer hover:scale-105 hover:shadow-lg transition-transform rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+                >
+                  <div className='absolute inset-0'>
+                    <img
+                      src={assets.images.contactus}
+                      alt='Contact Us'
+                      className='w-full h-full object-cover'
+                    />
+                    <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent'></div>
+                  </div>
+                  <div className='relative z-10 mb-2 text-white'>
+                    <p className='text-white text-[11px] font-medium mb-4 tracking-[-0.22px]'>
+                      {t('services.contactUs.badge')}
+                    </p>
+                    <h3 className='text-white text-[28px] font-extrabold leading-[35px] tracking-[0.56px] mb-4'>
+                      {t('services.contactUs.title')}
+                    </h3>
+                    <div className='border-b border-white mb-4'></div>
+                    <p className='text-white text-[11px] font-medium'>
+                      {t('services.contactUs.moreDetails')}
+                    </p>
+                  </div>
+                </button>
+              </ScrollAnimation>
             </div>
           </div>
         </ScrollAnimation>
 
         {/* Community Integration Section */}
-        <ScrollAnimation animation="fadeInUp" delay={1.1}>
+        <ScrollAnimation animation="fadeInUp" delay={1.2}>
           <div className='py-16'>
             <div className='mb-8 grid grid-cols-2 gap-12 items-center'>
               <div>
-                <ScrollAnimation animation="fadeInLeft" delay={1.2}>
+                <ScrollAnimation animation="fadeInLeft" delay={1.3}>
                   <p className='text-[#e22d2e] text-[18px] font-semibold tracking-[6px] uppercase mb-4'>
                     {t('services.communityIntegration.badge')}
                   </p>
                 </ScrollAnimation>
-                <ScrollAnimation animation="slideDown" delay={1.3}>
+                <ScrollAnimation animation="slideDown" delay={1.4}>
                   <h2 className='text-[#222222] text-[52px] font-bold leading-[65px] tracking-[5px] uppercase mb-8'>
                     {t('services.communityIntegration.title')}
                   </h2>
                 </ScrollAnimation>
-                <ScrollAnimation animation="fadeInUp" delay={1.4}>
+                <ScrollAnimation animation="fadeInUp" delay={1.5}>
                   <p className='text-[#000000] text-[18px] font-normal leading-[32px]'>
                     {t('services.communityIntegration.description')}
                   </p>
                 </ScrollAnimation>
               </div>
-              <ScrollAnimation animation="fadeInRight" delay={1.5}>
+              <ScrollAnimation animation="fadeInRight" delay={1.6}>
                 <div className='relative h-[400px] rounded-lg overflow-hidden'>
                   <img
                     src={assets.images.realEstateDevelopment}
