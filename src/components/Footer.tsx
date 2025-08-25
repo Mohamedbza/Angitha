@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
   ];
 
   const contactInfo = [
-    { label: t('footer.contactInfo.phone'), value: '+1647498-7482', href: 'tel:+1647498-7482' },
+    { label: t('footer.contactInfo.phone'), value: '647-498-7482', href: 'tel:647-498-7482' },
     {
       label: t('footer.contactInfo.email'),
       value: 'contact@angitha.com',
