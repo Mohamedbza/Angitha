@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
                 {/* Social Media Links */}
                 <div className='flex gap-4'>
                   <a
-                    href='#'
+                    href='https://www.facebook.com/share/1733GdrkXt/'
                     className='bg-[#961d1f] p-3 rounded-lg hover:bg-[#7a1619] transition-colors duration-200'
                   >
                     <FaFacebookF className='text-white text-lg' />

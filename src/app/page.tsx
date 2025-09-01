@@ -12,7 +12,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className='font-sans min-h-screen'>
+    <div className='font-sans min-h-screen overflow-y-hidden'>
       {/* <TopBanner /> */}
       <Navbar />
       <Hero />
